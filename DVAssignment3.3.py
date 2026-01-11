@@ -10,7 +10,7 @@ import plotly.express as px
 st.title("Interactive Dashboard")
 
 # Replace with your dataset path
-data = pd.read_csv(r"C:\Users\prath\Desktop\DV Assignment\train.csv")
+data = pd.read_csv("/home/adminuser/DV_Assignment/train.csv")
 
 st.write("### Sample of the dataset")
 st.dataframe(data.head())
@@ -108,3 +108,4 @@ if cat_cols:
 # ---------------------------
 st.write("### Summary Statistics of Filtered Data")
 st.write(filtered_data.describe(include='all'))
+
