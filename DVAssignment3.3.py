@@ -108,3 +108,4 @@ if cat_cols:
 # ---------------------------
 st.write("### Summary Statistics of Filtered Data")
 st.write(filtered_data.describe(include='all'))
+
